@@ -38,7 +38,7 @@ N_JOBS = int(os.environ.get("N_JOBS", "-1"))
 OPTIMIZASYON_METRIGI = "f1"                # tuning ve sıralama ölçütü (alternatif: 'average_precision')
 ESIK_YONTEMI = "f1"                        # 'f1' | 'maliyet'
 C_FN, C_FP = 5, 1                          # 'maliyet' yönteminde: kaçırılan "Kaldı" / gereksiz uyarı maliyeti
-KNN_DAHIL = os.environ.get("KNN_DAHIL", "1") == "1"   # KNN eğitim verisini modelin İÇİNDE saklar: yayınlayacaksan 0 yap
+KNN_DAHIL = os.environ.get("KNN_DAHIL", "0") == "0"   # KNN eğitim verisini modelin İÇİNDE saklar: yayınlayacaksan 0 yap
 ENSEMBLE_LR_DAHIL = False                  # lojistik taban modeli ensemble üyesi olsun mu
 
 # ---- İstatistiksel güvenilirlik ---------------------------------------------
