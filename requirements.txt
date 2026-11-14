@@ -1,0 +1,11 @@
+# Çalışma (Streamlit) bağımlılıkları. ÖNEMLİ: calistir.py, eğitim sonrası cikti/requirements.model.txt üretir;
+# o dosyadaki tam sürümleri buraya kopyala (pickle sürüme bağlıdır).
+streamlit>=1.40
+pandas
+numpy
+scipy
+scikit-learn
+xgboost
+lightgbm
+joblib
+matplotlib

@@ -1,0 +1,18 @@
+# ÖĞRENCİ VERİSİ ASLA REPOYA GİTMEZ
+*.xlsx
+*.xls
+*.csv
+veri/
+data/
+
+# Üretilen geçici dosyalar
+cikti/onisleme_cache/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+.env
+.DS_Store
+
+# Model raporları (özet metrikler, kişisel veri içermez) repoda kalabilir
+!cikti/*.csv
